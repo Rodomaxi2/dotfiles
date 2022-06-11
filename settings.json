@@ -1,0 +1,28 @@
+//Windows VSCODE SETTINGS
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.defaultInterpreterPath": "C:\\Users\\rodo-\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    //Iosevka Font
+    "editor.fontFamily": "Iosevka",
+    "files.eol": "\n",
+    "explorer.confirmDragAndDrop": false,
+    "tabnine.experimentalAutoImports": true,
+    "editor.renderWhitespace": "boundary",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "explorer.confirmDelete": false,
+    "go.toolsManagement.autoUpdate": true,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    //Theme color
+    "workbench.colorTheme": "jatne",
+    //GOPATH
+    "go.gopath": "/home/rodolfo/go",
+    "go.goroot": "/usr/local/go"
+}
