@@ -36,7 +36,9 @@
     {
         "defaults": 
         {
-            "colorScheme": "Argonaut"
+            "colorScheme": "Argonaut",
+            //Eliminar el sonidos emitidos por la terminal
+            "bellStyle": "none"
         },
         "list": 
         [
@@ -318,7 +320,5 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ],
-     //Eliminar el sonidos emitidos por la terminal
-     "profiles.defaults.bellStyle": "none"
+    ]
 }
