@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias arbolgit="git  log --all --graph --decorate --oneline"
+alias cdDoc="cd /mnt/d/Documentos/"
 
 #Mostrar solo el usuario si estat logeado con el usuario por defecto(solo agnoster??)
 prompt_context() {
@@ -113,3 +114,15 @@ export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export GOROOT=/usr/local/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+# Path cargo
+. "$HOME/.cargo/env"
+
+#Node Version Manager configutation
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
